@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: rgb(13, 49, 49);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    width: 30%;
+    margin-top: 4%;
+}
+
+.col-1, .col-2 {
+    width: 50%;
+    padding: 5%;
+}
+
+.new-book-card {
+    padding: 5%;
+    background: #dcdcdc;
+}
+
+.messages {
+    color: red;
+    font-size: 15px;
+}
+
+.description {
+    display: grid;
+    height: 35%;
+}
+
+.col-2 {
+    margin-bottom: 25%;
+}
+
+.new_recipe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
